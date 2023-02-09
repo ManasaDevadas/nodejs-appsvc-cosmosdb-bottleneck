@@ -9,7 +9,7 @@ on:
         - main
 
 env:
-  AZURE_WEBAPP_NAME: "testmd-webapp-loadtest"    # set this to your application's name
+  AZURE_WEBAPP_NAME: "testmd-webapp-loadtest1"    # set this to your application's name
   LOAD_TEST_RESOURCE: "testmd-loadtest-automatic"
   LOAD_TEST_RESOURCE_GROUP: "testmd-loadtest-rg"
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
